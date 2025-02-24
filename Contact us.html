@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - The New Empire</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>The New Empire</h1>
+        </div>
+        <nav>
+            <button class="menu-toggle" aria-label="Abrir menú">☰</button>
+            <ul class="menu">
+                <li><a href="#">Página Principal</a></li>
+                <li><a href="#">Subcripción</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="contact-form">
+            <h2>Comunícate con Nosotros</h2>
+            <form action="enviar_mensaje.php" method="post">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="phone">Teléfono:</label>
+                <input type="tel" id="phone" name="phone" required>
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <button type="submit">Enviar Mensaje</button>
+            </form>
+        </section>
+        <section>
+            <h2>Opiniones de Clientes</h2>
+            <blockquote>
+                <p>"El coaching me ha ayudado a desarrollar una mayor confianza en mí mismo y a alcanzar metas que antes parecían inalcanzables."</p>
+                <footer>- Juan P.</footer>
+            </blockquote>
+            <blockquote>
+                <p>"Gracias al coaching, he logrado avanzar en mi carrera y mejorar mis habilidades de liderazgo."</p>
+                <footer>- Carlos M.</footer>
+            </blockquote>
+        </section>
+        <section class="company-info">
+            <h2>Información de la Compañía</h2>
+            <p><strong>Ubicación:</strong> Houston, Texas</p>
+            <p><strong>Teléfono:</strong> +1 (555) 123-4567</p>
+            <p><strong>Email:</strong> contacto@thenewempire.com</p>
+            <p><strong>Horario de Atención:</strong> Lunes a Viernes, 9:00 AM - 6:00 PM</p>
+        </section>
+    </main>
+    <footer>
+        <p>© 2025 The New Empire. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
